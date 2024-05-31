@@ -320,12 +320,12 @@ func main() {
 		fmt.Println(human.PrintStatistics())
 
 		// Done playing?
-		// fmt.Println("Would you like to play again? 'yes' or 'no'")
-		// var input string
-		// fmt.Scanln(&input)
-		// if input == "no" {
-		// 	break
-		// }
+		fmt.Println("Would you like to play again? 'yes' or 'no'")
+		var input string
+		fmt.Scanln(&input)
+		if input == "no" {
+			break
+		}
 
 		// Reset the hands
 		bruce.Hand = []Card{}
